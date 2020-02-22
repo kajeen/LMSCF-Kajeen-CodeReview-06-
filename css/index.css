@@ -1,5 +1,5 @@
 .hintergrund {
-  background: url('../img/bg.jpg') no-repeat 75% top fixed;
+  background: url('../img/bg.jpg') no-repeat 75% top ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -9,7 +9,7 @@
 .hover {
   overflow: hidden;
   position: relative;
-  padding-bottom: 60%;
+  padding-bottom: 30%;
 }
 
 .hover-overlay {
@@ -72,3 +72,34 @@
 .hover-2:hover .hover-overlay {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
 }
+.hideInfo{
+    display: none;
+}
+.foto1{
+  flex: auto;
+}
+
+#Restaurants {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: 0;
+}.hiddenRes {
+  visibility: hidden;
+}
+/* #restDiv{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: 0;
+} */
+
+@media (max-width: 576px){
+  .lala{
+    display: none;
+  }
+}
+
+
